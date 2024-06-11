@@ -24,7 +24,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads-stage/jduimovich-tenant/tssc-bootstrap-app/dance-bootstrap-app:{{revision}}
   - name: dockerfile
-    value: 'Dockerfile '
+    value: 'Dockerfile'
   pipelineSpec:
     finally:
     - name: show-sbom
